@@ -1,0 +1,133 @@
+body {
+  background:indigo;
+  border: 15px  solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  height:100%;
+  text-align:center;
+  font-size:18px;
+}
+
+canvas{
+  color:black;
+  border: black dashed 3px;
+  padding:15px;
+}
+
+h1{
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 100;
+	text-transform: uppercase;
+    margin:5px 0;
+	font-size: 4em;
+	text-align:center;
+}
+
+h1 {
+              color:black;
+			  background-color:	yellow;
+	 }
+p{
+  font-size: 1.4em;
+}
+
+#alphabet {
+  margin:15px auto;
+  padding:0;
+  max-width:900px;
+}
+
+#alphabet li {
+  float:left;
+  margin: 0 10px 10px 0;
+  list-style:none;
+  width:35px;
+  height:30px;
+  padding-top:10px;
+  background:#1ca9c9;
+  color:black;
+  text-align:center;
+  cursor:pointer;
+  border: solid 1px black;
+  text-transform:uppercase;
+}
+    
+   #alphabet li:hover {
+	  background:blue;
+	  border: solid 1px black;
+	  color:black;
+    }
+
+
+
+#my-word {
+  margin: 5% auto;
+  display: table;
+  padding: 10px;
+  text-align:center;
+ 
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  text-align:center;
+  box-shadow: 0 0 0 3px #100;
+  display: inline-block;
+  padding: 0 10px;
+  font-size:1.6em;
+  text-transform:uppercase;
+}
+
+
+#mylives{
+    font-size:1.6em;
+    text-align:center;
+    background: #afa;
+    background: linear-gradient(#afa, #6f6);
+    background: -webkit-linear-gradient(top, #afa, #6f6);
+    background: -ms-linear-gradient(top, #afa, #6f6);
+    background: -moz-linear-gradient(top, #afa, #6f6);
+    background: -o-linear-gradient(top, #afa, #6f6);
+    border-radius: 2px;
+    box-shadow: 0 0 0 5px #660000;
+    display: table;
+	font-weight:bold;
+    padding: 10px 20px;
+    margin: 5% auto;
+}
+
+
+
+button{
+  background:#00AB66;
+  color:black;
+  border: solid 1px black;
+  text-decoration:none;
+  cursor:pointer;
+  font-size:1.2em;
+  padding:18px 10px;
+  width:180px;
+  margin: 5% auto;
+  outline: black;
+}
+                                                                                       
+    button:hover {
+      background:#3FFF00;
+      border: solid 1px black;
+      color:black;
+    }
+
+
+@media (max-width: 767px) {
+  #alphabet {
+  padding:0 0 0 15px;
+}
+  }
+
+  @media (max-width: 480px) {
+  #alphabet {
+  padding:0 0 0 25px;
+}
+  }
